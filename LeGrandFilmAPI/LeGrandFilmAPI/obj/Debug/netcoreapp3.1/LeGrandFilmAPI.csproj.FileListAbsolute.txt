@@ -23,3 +23,28 @@ C:\Users\Jacob\Nerd Shit\LeGrandFilm\LeGrandFilmAPI\LeGrandFilmAPI\bin\Debug\net
 C:\Users\Jacob\Nerd Shit\LeGrandFilm\LeGrandFilmAPI\LeGrandFilmAPI\obj\Debug\netcoreapp3.1\LeGrandFilmAPI.csproj.CoreCompileInputs.cache
 C:\Users\Jacob\Nerd Shit\LeGrandFilm\LeGrandFilmAPI\LeGrandFilmAPI\obj\Debug\netcoreapp3.1\LeGrandFilmAPI.MvcApplicationPartsAssemblyInfo.cache
 C:\Users\Jacob\Nerd Shit\LeGrandFilm\LeGrandFilmAPI\LeGrandFilmAPI\obj\Debug\netcoreapp3.1\LeGrandFilmAPI.csproj.CopyComplete
+C:\projects\other\legrandfilm\LeGrandFilmAPI\LeGrandFilmAPI\bin\Debug\netcoreapp3.1\appsettings.Development.json
+C:\projects\other\legrandfilm\LeGrandFilmAPI\LeGrandFilmAPI\bin\Debug\netcoreapp3.1\appsettings.json
+C:\projects\other\legrandfilm\LeGrandFilmAPI\LeGrandFilmAPI\bin\Debug\netcoreapp3.1\Properties\launchSettings.json
+C:\projects\other\legrandfilm\LeGrandFilmAPI\LeGrandFilmAPI\bin\Debug\netcoreapp3.1\LeGrandFilmAPI.exe
+C:\projects\other\legrandfilm\LeGrandFilmAPI\LeGrandFilmAPI\bin\Debug\netcoreapp3.1\LeGrandFilmAPI.deps.json
+C:\projects\other\legrandfilm\LeGrandFilmAPI\LeGrandFilmAPI\bin\Debug\netcoreapp3.1\LeGrandFilmAPI.runtimeconfig.json
+C:\projects\other\legrandfilm\LeGrandFilmAPI\LeGrandFilmAPI\bin\Debug\netcoreapp3.1\LeGrandFilmAPI.runtimeconfig.dev.json
+C:\projects\other\legrandfilm\LeGrandFilmAPI\LeGrandFilmAPI\bin\Debug\netcoreapp3.1\LeGrandFilmAPI.dll
+C:\projects\other\legrandfilm\LeGrandFilmAPI\LeGrandFilmAPI\bin\Debug\netcoreapp3.1\LeGrandFilmAPI.pdb
+C:\projects\other\legrandfilm\LeGrandFilmAPI\LeGrandFilmAPI\bin\Debug\netcoreapp3.1\System.Net.Http.Formatting.dll
+C:\projects\other\legrandfilm\LeGrandFilmAPI\LeGrandFilmAPI\bin\Debug\netcoreapp3.1\System.Web.Http.dll
+C:\projects\other\legrandfilm\LeGrandFilmAPI\LeGrandFilmAPI\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
+C:\projects\other\legrandfilm\LeGrandFilmAPI\LeGrandFilmAPI\bin\Debug\netcoreapp3.1\Newtonsoft.Json.Bson.dll
+C:\projects\other\legrandfilm\LeGrandFilmAPI\LeGrandFilmAPI\obj\Debug\netcoreapp3.1\LeGrandFilmAPI.csprojAssemblyReference.cache
+C:\projects\other\legrandfilm\LeGrandFilmAPI\LeGrandFilmAPI\obj\Debug\netcoreapp3.1\LeGrandFilmAPI.csproj.CoreCompileInputs.cache
+C:\projects\other\legrandfilm\LeGrandFilmAPI\LeGrandFilmAPI\obj\Debug\netcoreapp3.1\LeGrandFilmAPI.MvcApplicationPartsAssemblyInfo.cache
+C:\projects\other\legrandfilm\LeGrandFilmAPI\LeGrandFilmAPI\obj\Debug\netcoreapp3.1\LeGrandFilmAPI.AssemblyInfoInputs.cache
+C:\projects\other\legrandfilm\LeGrandFilmAPI\LeGrandFilmAPI\obj\Debug\netcoreapp3.1\LeGrandFilmAPI.AssemblyInfo.cs
+C:\projects\other\legrandfilm\LeGrandFilmAPI\LeGrandFilmAPI\obj\Debug\netcoreapp3.1\LeGrandFilmAPI.RazorTargetAssemblyInfo.cache
+C:\projects\other\legrandfilm\LeGrandFilmAPI\LeGrandFilmAPI\obj\Debug\netcoreapp3.1\LeGrandFilmAPI.csproj.CopyComplete
+C:\projects\other\legrandfilm\LeGrandFilmAPI\LeGrandFilmAPI\obj\Debug\netcoreapp3.1\staticwebassets\LeGrandFilmAPI.StaticWebAssets.Manifest.cache
+C:\projects\other\legrandfilm\LeGrandFilmAPI\LeGrandFilmAPI\obj\Debug\netcoreapp3.1\staticwebassets\LeGrandFilmAPI.StaticWebAssets.xml
+C:\projects\other\legrandfilm\LeGrandFilmAPI\LeGrandFilmAPI\obj\Debug\netcoreapp3.1\LeGrandFilmAPI.dll
+C:\projects\other\legrandfilm\LeGrandFilmAPI\LeGrandFilmAPI\obj\Debug\netcoreapp3.1\LeGrandFilmAPI.pdb
+C:\projects\other\legrandfilm\LeGrandFilmAPI\LeGrandFilmAPI\obj\Debug\netcoreapp3.1\LeGrandFilmAPI.genruntimeconfig.cache
