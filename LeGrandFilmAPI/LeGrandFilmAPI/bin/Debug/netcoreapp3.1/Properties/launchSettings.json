@@ -11,8 +11,6 @@
   "profiles": {
     "LeGrandFilmAPI": {
       "commandName": "Project",
-      "launchBrowser": true,
-      "launchUrl": "FilmInfo/GetInfo/harry",
       "applicationUrl": "http://localhost:5000",
       "environmentVariables": {
         "ASPNETCORE_ENVIRONMENT": "Development"

@@ -17,21 +17,24 @@ namespace LeGrandFilmAPI
 {
     public class Startup
     {
-        public Startup(IConfiguration configuration)
-        {
-            Configuration = configuration;
-        }
+        readonly string MyAllowSpecificOrigins = "_myAllowSpecificOrigins";
 
-        public IConfiguration Configuration { get; }
-
-        // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
+            services.AddCors(options =>
+            {
+                options.AddPolicy(name: MyAllowSpecificOrigins,
+                                  builder =>
+                                  {
+                                      builder.WithOrigins("http://localhost:");
+                                  });
+            });
+
+            // services.AddResponseCaching();
             services.AddControllers();
             services.AddScoped<IFilmInfoRepository, FilmInfoRepository>();
         }
 
-        // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
         public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
         {
             if (env.IsDevelopment())
@@ -40,8 +43,18 @@ namespace LeGrandFilmAPI
             }
 
             app.UseHttpsRedirection();
-
+            app.UseStaticFiles();
             app.UseRouting();
+
+            app.UseCors(
+                 options => options.WithOrigins("http://localhost:3000")
+                 .AllowAnyMethod()
+                 .WithExposedHeaders("Authorization")
+                 .AllowAnyHeader()
+                 .AllowCredentials()
+    );
+
+            // app.UseResponseCaching();
 
             app.UseAuthorization();
 

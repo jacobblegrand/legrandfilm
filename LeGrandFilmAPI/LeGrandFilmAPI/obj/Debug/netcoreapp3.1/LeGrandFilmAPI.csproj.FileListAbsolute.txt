@@ -37,8 +37,6 @@ C:\projects\other\legrandfilm\LeGrandFilmAPI\LeGrandFilmAPI\bin\Debug\netcoreapp
 C:\projects\other\legrandfilm\LeGrandFilmAPI\LeGrandFilmAPI\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
 C:\projects\other\legrandfilm\LeGrandFilmAPI\LeGrandFilmAPI\bin\Debug\netcoreapp3.1\Newtonsoft.Json.Bson.dll
 C:\projects\other\legrandfilm\LeGrandFilmAPI\LeGrandFilmAPI\obj\Debug\netcoreapp3.1\LeGrandFilmAPI.csprojAssemblyReference.cache
-C:\projects\other\legrandfilm\LeGrandFilmAPI\LeGrandFilmAPI\obj\Debug\netcoreapp3.1\LeGrandFilmAPI.csproj.CoreCompileInputs.cache
-C:\projects\other\legrandfilm\LeGrandFilmAPI\LeGrandFilmAPI\obj\Debug\netcoreapp3.1\LeGrandFilmAPI.MvcApplicationPartsAssemblyInfo.cache
 C:\projects\other\legrandfilm\LeGrandFilmAPI\LeGrandFilmAPI\obj\Debug\netcoreapp3.1\LeGrandFilmAPI.AssemblyInfoInputs.cache
 C:\projects\other\legrandfilm\LeGrandFilmAPI\LeGrandFilmAPI\obj\Debug\netcoreapp3.1\LeGrandFilmAPI.AssemblyInfo.cs
 C:\projects\other\legrandfilm\LeGrandFilmAPI\LeGrandFilmAPI\obj\Debug\netcoreapp3.1\LeGrandFilmAPI.RazorTargetAssemblyInfo.cache
@@ -48,3 +46,15 @@ C:\projects\other\legrandfilm\LeGrandFilmAPI\LeGrandFilmAPI\obj\Debug\netcoreapp
 C:\projects\other\legrandfilm\LeGrandFilmAPI\LeGrandFilmAPI\obj\Debug\netcoreapp3.1\LeGrandFilmAPI.dll
 C:\projects\other\legrandfilm\LeGrandFilmAPI\LeGrandFilmAPI\obj\Debug\netcoreapp3.1\LeGrandFilmAPI.pdb
 C:\projects\other\legrandfilm\LeGrandFilmAPI\LeGrandFilmAPI\obj\Debug\netcoreapp3.1\LeGrandFilmAPI.genruntimeconfig.cache
+C:\projects\other\legrandfilm\LeGrandFilmAPI\LeGrandFilmAPI\bin\Debug\netcoreapp3.1\Microsoft.Azure.Management.Sql.dll
+C:\projects\other\legrandfilm\LeGrandFilmAPI\LeGrandFilmAPI\bin\Debug\netcoreapp3.1\Microsoft.Rest.ClientRuntime.dll
+C:\projects\other\legrandfilm\LeGrandFilmAPI\LeGrandFilmAPI\bin\Debug\netcoreapp3.1\Microsoft.Rest.ClientRuntime.Azure.dll
+C:\projects\other\legrandfilm\LeGrandFilmAPI\LeGrandFilmAPI\bin\Debug\netcoreapp3.1\System.Data.SqlClient.dll
+C:\projects\other\legrandfilm\LeGrandFilmAPI\LeGrandFilmAPI\bin\Debug\netcoreapp3.1\runtimes\win-arm64\native\sni.dll
+C:\projects\other\legrandfilm\LeGrandFilmAPI\LeGrandFilmAPI\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\sni.dll
+C:\projects\other\legrandfilm\LeGrandFilmAPI\LeGrandFilmAPI\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\sni.dll
+C:\projects\other\legrandfilm\LeGrandFilmAPI\LeGrandFilmAPI\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\projects\other\legrandfilm\LeGrandFilmAPI\LeGrandFilmAPI\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\projects\other\legrandfilm\LeGrandFilmAPI\LeGrandFilmAPI\obj\Debug\netcoreapp3.1\LeGrandFilmAPI.csproj.CoreCompileInputs.cache
+C:\projects\other\legrandfilm\LeGrandFilmAPI\LeGrandFilmAPI\obj\Debug\netcoreapp3.1\LeGrandFilmAPI.MvcApplicationPartsAssemblyInfo.cache
+C:\projects\other\legrandfilm\LeGrandFilmAPI\LeGrandFilmAPI\bin\Debug\netcoreapp3.1\Dapper.dll

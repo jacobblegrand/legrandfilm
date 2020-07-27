@@ -25,9 +25,27 @@ namespace LeGrandFilmAPI.Controllers
 
         [HttpGet]
         [Route("GetInfo/{query}")]
-        public List<FilmInfo> Get(string query)
+        public string GetInfo(string query)
         {
             var x = _filmInfoRepository.GetInfo(query).Result;
+            return x;
+        }
+
+        [HttpPost]
+        [Route("InsertFilm")]
+        public string InsertFilm([FromBody]object filmObject)
+        {
+            var filmString = filmObject.ToString();
+            var x = _filmInfoRepository.InsertFilm(filmString);
+            return x;
+        }
+
+        [HttpDelete]
+        [Route("DeleteFilm")]
+        public string DeleteFilm([FromBody]object filmObject)
+        {
+            var filmString = filmObject.ToString();
+            var x = _filmInfoRepository.DeleteFilm(filmString);
             return x;
         }
     }
