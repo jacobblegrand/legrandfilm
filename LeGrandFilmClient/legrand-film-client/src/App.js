@@ -1,9 +1,13 @@
 import React from 'react';
-import FilmGrid from './FilmGrid';
+import SearchingControl from './SearchingControl';
+import Navbar from './Navbar';
 
 function App() {
   return (
-    <FilmGrid></FilmGrid>
+    <div>
+      <Navbar></Navbar>
+      <SearchingControl></SearchingControl>
+    </div>
   )
 }
 

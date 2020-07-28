@@ -58,3 +58,13 @@ C:\projects\other\legrandfilm\LeGrandFilmAPI\LeGrandFilmAPI\bin\Debug\netcoreapp
 C:\projects\other\legrandfilm\LeGrandFilmAPI\LeGrandFilmAPI\obj\Debug\netcoreapp3.1\LeGrandFilmAPI.csproj.CoreCompileInputs.cache
 C:\projects\other\legrandfilm\LeGrandFilmAPI\LeGrandFilmAPI\obj\Debug\netcoreapp3.1\LeGrandFilmAPI.MvcApplicationPartsAssemblyInfo.cache
 C:\projects\other\legrandfilm\LeGrandFilmAPI\LeGrandFilmAPI\bin\Debug\netcoreapp3.1\Dapper.dll
+C:\Users\Jacob\Nerd Shit\LeGrandFilm\LeGrandFilmAPI\LeGrandFilmAPI\bin\Debug\netcoreapp3.1\Dapper.dll
+C:\Users\Jacob\Nerd Shit\LeGrandFilm\LeGrandFilmAPI\LeGrandFilmAPI\bin\Debug\netcoreapp3.1\Microsoft.Azure.Management.Sql.dll
+C:\Users\Jacob\Nerd Shit\LeGrandFilm\LeGrandFilmAPI\LeGrandFilmAPI\bin\Debug\netcoreapp3.1\Microsoft.Rest.ClientRuntime.dll
+C:\Users\Jacob\Nerd Shit\LeGrandFilm\LeGrandFilmAPI\LeGrandFilmAPI\bin\Debug\netcoreapp3.1\Microsoft.Rest.ClientRuntime.Azure.dll
+C:\Users\Jacob\Nerd Shit\LeGrandFilm\LeGrandFilmAPI\LeGrandFilmAPI\bin\Debug\netcoreapp3.1\System.Data.SqlClient.dll
+C:\Users\Jacob\Nerd Shit\LeGrandFilm\LeGrandFilmAPI\LeGrandFilmAPI\bin\Debug\netcoreapp3.1\runtimes\win-arm64\native\sni.dll
+C:\Users\Jacob\Nerd Shit\LeGrandFilm\LeGrandFilmAPI\LeGrandFilmAPI\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\sni.dll
+C:\Users\Jacob\Nerd Shit\LeGrandFilm\LeGrandFilmAPI\LeGrandFilmAPI\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\sni.dll
+C:\Users\Jacob\Nerd Shit\LeGrandFilm\LeGrandFilmAPI\LeGrandFilmAPI\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\Jacob\Nerd Shit\LeGrandFilm\LeGrandFilmAPI\LeGrandFilmAPI\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll

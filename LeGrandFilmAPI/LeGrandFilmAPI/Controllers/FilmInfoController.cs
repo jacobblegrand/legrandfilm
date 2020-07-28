@@ -48,5 +48,13 @@ namespace LeGrandFilmAPI.Controllers
             var x = _filmInfoRepository.DeleteFilm(filmString);
             return x;
         }
+
+        [HttpGet]
+        [Route("GetFilms")]
+        public string GetFilms()
+        {
+            var x = _filmInfoRepository.GetFilms();
+            return x;
+        }
     }
 }

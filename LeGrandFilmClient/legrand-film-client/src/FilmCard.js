@@ -17,11 +17,11 @@ class FilmCard extends Component {
       body: JSON.stringify(this.props.movie)
       };
 
-      fetch(url, requestOptions)
-      // .then(res => res.json())
-      // .then((data) => {
-      //   console.log(data)
-      // })
+    fetch(url, requestOptions)
+    // .then(res => res.json())
+    // .then((data) => {
+    //   console.log(data)
+    // })
   }
 
   deleteFilm() {
@@ -34,25 +34,30 @@ class FilmCard extends Component {
       body: JSON.stringify(this.props.movie)
       };
 
-      fetch(url, requestOptions)
-      // .then(res => res.json())
-      // .then((data) => {
-      //   console.log(data)
-      // })
-      .catch(console.log)
+    fetch(url, requestOptions)
+    .then(() => {
+      this.props.action();
+    })
+    .catch(console.log)
   }
 
-    render() {
-      return (
-        <div className="card-body">
-          <img src={"https://image.tmdb.org/t/p/w200" + this.props.movie.poster_path}></img>
-          <h4 className="card-title">{this.props.movie.title}</h4>
-          <h5 className="card-subtitle mb-2 text-muted">{this.props.movie.overview}</h5>
-          <button onClick={this.addFilm}>Add</button>
-          <button onClick={this.deleteFilm}>Delete</button>
-        </div>
-      )
-    }
+  render() {
+    let imgSrc = "https://image.tmdb.org/t/p/w200" + this.props.movie.poster_path
+    let button;
+    if (this.props.movie.poster_path === null)
+      imgSrc = 'https://lh3.googleusercontent.com/proxy/LUJ8UTmha-3dJe8IrvZFjrtJzdm75-75PkFuY6_EJ3cGa9JP9WddbSvv4QPPdeaXdyLEp_P9KM518pDd7RAkInhfNAheUASNEItBxmfq4cbkUyV8-814I5M'
+    if (this.props.isSearch) 
+      button = <button onClick={this.addFilm}>Add</button>
+    else
+      button = <button onClick={this.deleteFilm}>Delete</button>
+
+    return (
+      <div className="card-body">
+        <img src={imgSrc}></img>
+        {button}
+      </div>
+    )
+  }
 }
 
 export default FilmCard;

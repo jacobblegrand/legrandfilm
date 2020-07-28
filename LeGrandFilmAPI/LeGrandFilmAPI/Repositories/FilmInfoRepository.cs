@@ -6,6 +6,7 @@ using System.Net.Http;
 using System.Threading.Tasks;
 using Newtonsoft.Json;
 using System.Data.SqlClient;
+using System.Collections.Generic;
 
 namespace LeGrandFilmAPI.Repositories
 {
@@ -14,6 +15,7 @@ namespace LeGrandFilmAPI.Repositories
         Task<string> GetInfo(string query);
         string InsertFilm(string film);
         string DeleteFilm(string film);
+        string GetFilms();
     }
     public class FilmInfoRepository : IFilmInfoRepository
     {
@@ -35,7 +37,7 @@ namespace LeGrandFilmAPI.Repositories
             FilmInfo filmObject = JsonConvert.DeserializeObject<FilmInfo>(film);
             string output = "";
             var parameters = new { Id = filmObject.id, Title = filmObject.title, Overview = filmObject.overview, PosterPath = filmObject.poster_path, ReleaseDate = filmObject.release_date, GenreIds = String.Join(',', filmObject.genre_ids), BackdropPath = filmObject.backdrop_path, VoteAverage = filmObject.vote_average };
-            string query = "INSERT INTO MOVIES (Id, Title, Overview, PosterPath, ReleaseDate, GenreIds, BackdropPath, VoteAverage) VALUES (@Id, @Title, @Overview, @PosterPath, @ReleaseDate, @GenreIds, @BackdropPath, @VoteAverage)";
+            string query = "INSERT INTO MOVIES (Id, Title, Overview, Poster_Path, Release_Date, Genre_Ids_String, Backdrop_Path, Vote_Average) VALUES (@Id, @Title, @Overview, @PosterPath, @ReleaseDate, @GenreIds, @BackdropPath, @VoteAverage)";
 
             SqlConnection sqlConnection = new SqlConnection(_connectionString);
 
@@ -62,6 +64,23 @@ namespace LeGrandFilmAPI.Repositories
                 output = db.Query<string>(query, parameters).FirstOrDefault();
             }
             return output;
+        }
+
+        public string GetFilms()
+        {
+            List<FilmInfo> output;
+            string query = "SELECT * FROM MOVIES";
+
+            SqlConnection sqlConnection = new SqlConnection(_connectionString);
+
+            using (var db = sqlConnection)
+            {
+                db.Open();
+                output = db.Query<FilmInfo>(query).ToList();
+            }
+            //List<FilmInfo> formattedList;
+            var x = JsonConvert.SerializeObject(output);
+            return x;
         }
     }
 }
