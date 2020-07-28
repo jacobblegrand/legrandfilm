@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import './Style.scss';
 
 class FilmCard extends Component {
   constructor(props) {
@@ -45,16 +46,18 @@ class FilmCard extends Component {
     let imgSrc = "https://image.tmdb.org/t/p/w200" + this.props.movie.poster_path
     let button;
     if (this.props.movie.poster_path === null)
-      imgSrc = 'https://lh3.googleusercontent.com/proxy/LUJ8UTmha-3dJe8IrvZFjrtJzdm75-75PkFuY6_EJ3cGa9JP9WddbSvv4QPPdeaXdyLEp_P9KM518pDd7RAkInhfNAheUASNEItBxmfq4cbkUyV8-814I5M'
+      imgSrc = 'http://gearr.scannain.com/wp-content/uploads/2015/02/noposter.jpg'
     if (this.props.isSearch) 
       button = <button onClick={this.addFilm}>Add</button>
     else
       button = <button onClick={this.deleteFilm}>Delete</button>
 
     return (
-      <div className="card-body">
-        <img src={imgSrc}></img>
-        {button}
+      <div class="card bg-dark text-white">
+        <img class="card-img" src={imgSrc}></img>
+        <div class="card-img-overlay">
+          {button}
+        </div>
       </div>
     )
   }

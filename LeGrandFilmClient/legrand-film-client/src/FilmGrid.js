@@ -41,14 +41,14 @@ class SearchGrid extends Component {
     }
 
     render() {
-      var groupedArray = this.chunkArray(this.state.movies, 4);
+      var groupedArray = this.chunkArray(this.state.movies, 6);
       return (
         <div>
           <Container>
             {groupedArray.map(chunk =>
-                <Row>
+                <Row id ="row">
                   {chunk.map(item =>
-                    <Col xs={3}><FilmCard action = {this.update} isSearch={false} movie={item}/></Col>
+                    <Col xs={2}><FilmCard action = {this.update} isSearch={false} movie={item}/></Col>
                     )}
                 </Row>
             )}

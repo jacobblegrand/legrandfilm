@@ -1,6 +1,9 @@
 import React, { Component } from 'react';
-import SearchBar from './SearchBar'
-import FilmCard from './FilmCard'
+import SearchBar from './SearchBar';
+import FilmCard from './FilmCard';
+import Container from 'react-bootstrap/Container';
+import Row from 'react-bootstrap/Row';
+import Col from 'react-bootstrap/Col';
 
 class SearchGrid extends Component {
     state = {
@@ -21,14 +24,31 @@ class SearchGrid extends Component {
       }
     }
 
+    chunkArray(arr, size) {
+      var groupedArray = [];
+      for (var i = 0; i < arr.length; i += size) {
+        groupedArray.push(arr.slice(i, i + size));
+      }
+      return groupedArray;
+    }
+
     render() {
+      var groupedArray = this.chunkArray(this.state.movies, 6);
+
       return (
         <div>
-          <SearchBar searchBarCallback={this.search}/>
-          <center><h1>Add Film</h1></center>
-          {this.state.movies.map((movie) => (
-            <FilmCard isSearch={true} movie={movie}/>
-          ))}
+          <SearchBar className = 'search-bar' searchBarCallback={this.search}/>
+          <div>
+          <Container>
+            {groupedArray.map(chunk =>
+                <Row>
+                  {chunk.map(item =>
+                    <Col xs={2}><FilmCard action = {this.update} isSearch={true} movie={item}/></Col>
+                    )}
+                </Row>
+            )}
+          </Container>
+        </div>
         </div>
       )
     }

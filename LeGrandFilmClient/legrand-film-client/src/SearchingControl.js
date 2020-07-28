@@ -1,8 +1,7 @@
 import React from 'react';
 import SearchGrid from './SearchGrid';
 import FilmGrid from './FilmGrid';
-import Modal from 'react-bootstrap/Modal';
-import Button from 'react-bootstrap/Button';
+import SearchModal from './SearchModal';
 
 class SearchingControl extends React.Component {
   constructor(props) {
@@ -33,7 +32,7 @@ class SearchingControl extends React.Component {
 
     return (
       <div>
-        {button}
+        <SearchModal></SearchModal>
         {grid}
       </div>
     );
