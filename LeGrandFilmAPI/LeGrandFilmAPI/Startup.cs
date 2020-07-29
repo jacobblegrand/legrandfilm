@@ -17,18 +17,9 @@ namespace LeGrandFilmAPI
 {
     public class Startup
     {
-        readonly string MyAllowSpecificOrigins = "_myAllowSpecificOrigins";
-
         public void ConfigureServices(IServiceCollection services)
         {
-            services.AddCors(options =>
-            {
-                options.AddPolicy(name: MyAllowSpecificOrigins,
-                                  builder =>
-                                  {
-                                      builder.WithOrigins("http://localhost:");
-                                  });
-            });
+            services.AddCors();
 
             // services.AddResponseCaching();
             services.AddControllers();
@@ -47,7 +38,7 @@ namespace LeGrandFilmAPI
             app.UseRouting();
 
             app.UseCors(
-                 options => options.WithOrigins("http://localhost:3000")
+                 options => options.WithOrigins("http://localhost:3000", "http://anywheresfine.com/", "https://legrandfilmapi.azurewebsites.net/", "http://localhost", "http://anywheresfine.com/legrandfilm")
                  .AllowAnyMethod()
                  .WithExposedHeaders("Authorization")
                  .AllowAnyHeader()

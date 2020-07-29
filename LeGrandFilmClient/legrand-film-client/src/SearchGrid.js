@@ -12,7 +12,7 @@ class SearchGrid extends Component {
 
     search = (query) => {
       if (query !== ''){
-        var url = 'http://localhost:5000/FilmInfo/GetInfo/' + query;
+        var url = 'https://legrandfilmapi.azurewebsites.net/FilmInfo/GetInfo/' + query;
         fetch(url)
         .then(res => res.json())
         .then((data) => {

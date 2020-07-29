@@ -14,24 +14,16 @@ function SearchModal() {
   return (
     <>
       <Button variant="primary" onClick={handleShow}>
-        Launch demo modal
+        Add Film
       </Button>
 
       <Modal show={show} onHide={handleClose} dialogClassName="search-modal">
         <Modal.Header closeButton>
-          <Modal.Title>Modal heading</Modal.Title>
         </Modal.Header>
         <Modal.Body>
           <SearchGrid></SearchGrid>
         </Modal.Body>
-        <Modal.Footer>
-          <Button variant="secondary" onClick={handleClose}>
-            Close
-          </Button>
-          <Button variant="primary" onClick={handleClose}>
-            Save Changes
-          </Button>
-        </Modal.Footer>
+        
       </Modal>
     </>
   );
